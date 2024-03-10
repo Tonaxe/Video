@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* Estilo del fondo de la aplicación */
+#gameBorderPane {
+    -fx-background-color: #B8BCD2; /* Color gris claro */
+}
+
+/* Estilo del menú */
+.menu-bar {
+    -fx-background-color: #B8BCD2; /* Color de fondo del menú */
+}
+
+.menu-bar .menu {
+    -fx-text-fill: white; /* Color del texto del menú */
+}
+
+.menu-bar .menu .menu-item {
+    -fx-text-fill: white; /* Color del texto del ítem del menú */
+}
+
+.app-background {
+    -fx-background-color: #ffffff; /* blanco */
+}
+
+/* Estilo para el tema oscuro */
+.dark-theme .app-background {
+    -fx-background-color: #333333; /* gris oscuro */
+}
+
+/* Nuevo estilo para el fondo del Pane de abajo del GridPane */
+#bottomPane {
+    -fx-background-color: #F0F0F0; /* Color de fondo del nuevo panel */
+}
+
+/* Nuevo estilo para los botones */
+#insertLeftButton, #insertRightButton {
+    -fx-background-color: #4CAF50; /* Color de fondo de los botones */
+    -fx-text-fill: white; /* Color del texto de los botones */
+}
+
+/* Agrega estas clases o modifica las existentes según tus necesidades */
+
+/* Clase para el fondo blanco */
+.fondo-blanco {
+    -fx-background-color: #F0F0F0;
+}
+
+/* Clase para el fondo oscuro */
+.fondo-oscuro {
+    -fx-background-color: #333333;
+}
